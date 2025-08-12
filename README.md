@@ -53,10 +53,10 @@ Puedes clonar este repositorio usando:
 git clone https://github.com/Ivan-Ortiz1/Clasificador.git
 
 Recomendado usar entorno virtual para instalar dependencias:
-python -m venv env
-source env/bin/activate  # Linux/Mac
-env\Scripts\activate     # Windows PowerShell
-pip install -r requirements.txt
+- python -m venv env
+- source env/bin/activate  # Linux/Mac
+- env\Scripts\activate     # Windows PowerShell
+- pip install -r requirements.txt
 
 ## Tecnologías Utilizadas
 - Python 3.x
