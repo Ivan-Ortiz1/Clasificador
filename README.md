@@ -46,3 +46,23 @@ vectorizer = load("vectorizador_tfidf.pkl")
 texto = "I love this product! It works great."
 etiqueta = predecir_tweet(texto, modelo, vectorizer)
 print("Predicción:", etiqueta)
+
+## Acceso al Proyecto
+
+Puedes clonar este repositorio usando:
+git clone https://github.com/Ivan-Ortiz1/Clasificador.git
+
+Recomendado usar entorno virtual para instalar dependencias:
+python -m venv env
+source env/bin/activate  # Linux/Mac
+env\Scripts\activate     # Windows PowerShell
+pip install -r requirements.txt
+
+## Tecnologías Utilizadas
+- Python 3.x
+- pandas
+- re (expresiones regulares)
+- nltk (Natural Language Toolkit) para stopwords
+- scikit-learn para vectorización, modelado y evaluación
+- imbalanced-learn (SMOTE) para balanceo de datos
+- joblib para guardar y cargar modelos
